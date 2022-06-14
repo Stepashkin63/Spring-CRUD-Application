@@ -16,7 +16,7 @@ public class Person {
     private int age;
 
     @NotEmpty(message = "Email should not de empty!")
-    @Email(message = "Email should be valid!")
+//    @Email(message = "Email should be valid!")
     private String email;
 
     public Person() {
